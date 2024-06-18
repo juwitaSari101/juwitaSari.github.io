@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 70px;
+}
+.container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 70vh;            
+    text-align: center; 
+    flex-direction: column; 
+    margin-top: 50px;     
+}
+ /*nav  */
+ nav.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* style poto di menu home*/
+.homeImage {
+    width: 200px;             
+    height: 200px;          
+    object-fit: cover;        
+    border-radius: 50%;       
+    border: 5px solid #fff;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* style menu tentang saya */
+.container-profile, .container-education, .container-certification {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-pic {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+h1, h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-top: 40px;
+}
+.judul-education{
+    margin-top: 20px;
+}
+
+.info {
+    margin: 20px 0;
+}
+.info p, .minat-bakat p, .education p, .certification p {
+    margin: 5px 0;
+}
+.minat-bakat {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* menu aktivitas */
